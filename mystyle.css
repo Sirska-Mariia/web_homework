@@ -262,7 +262,7 @@ body {
   
   .card {
       width: 20%;
-      padding: 15px;
+      padding: 2%;
       background: white;
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -276,13 +276,13 @@ body {
   .title {
       font-size: 14px;
       color: #888;
-      margin-bottom: 5px;
+      margin-bottom: 5%;
   }
   
   .calories {
-      font-size: 20px;
+      font-size: 1.2em;
       font-weight: bold;
-      margin-bottom: 10px;
+      margin-bottom: 10%;
   }
   
   .chart {
@@ -290,8 +290,8 @@ body {
       align-items: flex-end;
       justify-content: space-between;
       height: 80px;
-      margin-top: 10px;
-      padding: 5px 0;
+      margin-top: 1%;
+      padding: 5% 0;
   }
   
   .bar-container {
@@ -467,13 +467,13 @@ body {
     .reviews-section-subheader {
       font-size: 1em;
       color: #666;
-      margin-top: 10px;
+      margin-top: 10%;
       line-height: 1.6;
     }
     
     .reviews-cards-container {
       display: flex;
-      gap: 20px;
+      gap: 6%;
       justify-content: flex-end;
       width: 70%;
       position: relative;
@@ -484,10 +484,10 @@ body {
     .review-card {
       background: white;
       border-radius: 12px;
-      padding: 20px;
-      width: 18%;
-      min-width: 200px;
-      height: 320px;
+      padding: 2%;
+      width: 20%;
+      min-width: 25%;
+      height: 20%;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       text-align: left;
       position: relative;
@@ -497,34 +497,34 @@ body {
     }
     
     .review-card:last-child {
-      margin-right: -80px;
+      margin-right: -10%;
     }
     
     .review-card img {
-      width: 60px;
-      height: 60px;
+      width: 35%;
+      height: 25%;
       border-radius: 12px;
       position: absolute;
-      top: -30px;
-      left: 20px;
+      top: -15%;
+      left: 10%;
     }
     
     .review-card h3 {
-      margin-top: 70px;
-      font-size: 18px;
+      margin-top: 30%;
+      font-size: 1.8em;
       text-align: left;
-      margin-bottom: 4px;
+      margin-bottom: 4%;
     }
     
     .review-card-age {
       color: #888;
-      font-size: 14px;
+      font-size: 1em;
       text-align: left;
-      margin-bottom: 6px;
+      margin-bottom: 5%;
     }
     
     .review-card-text {
-      font-size: 15px;
+      font-size: 1em;
       color: #555;
       line-height: 1.5;
       text-align: left;
@@ -675,10 +675,10 @@ body {
   
     .form {
       position: relative;
-      padding: 80px 40px;
+      padding: 8% 4%;
       color: black;
       text-align: center;
-      min-height: 500px;
+      min-height: 5%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -702,7 +702,7 @@ body {
   }
   
   .form article {
-      max-width: 800px;
+      max-width: 80%;
       margin: 0 auto;
       position: relative;
       z-index: 2;
@@ -710,40 +710,40 @@ body {
   }
   
   .form h3 {
-      font-size: 36px;
-      margin-bottom: 20px;
+      font-size: 1.5em;
+      /* margin-bottom: 10%; */
       color: orange;
   }
   
   .form h2 {
-      font-size: 48px;
-      margin-bottom: 30px;
+      font-size: 2.5em;
+      margin-bottom: 3%;
       color: black;
       line-height: 1.2;
   }
   
   .form p {
-      font-size: 24px;
-      margin-bottom: 40px;
+      font-size: 1.3em;
+      margin-bottom: 5%;
       color: #555;
   }
   
   .form form {
       display: flex;
       justify-content: center;
-      gap: 10px;
+      gap: 10%;
       background-color: rgba(255, 255, 255, 0.8);
-      padding: 20px;
+      padding: 2%;
       border-radius: 50px;
       border: none;
       width: 100%;
-      max-width: 600px;
+      max-width: 60%;
       margin: 0 auto;
   }
   
   .form input[type="email"] {
-      padding: 15px;
-      font-size: 20px;
+      padding: 1%;
+      font-size: 1em;
       border: none;
       border-radius: 25px;
       width: 70%;
@@ -752,8 +752,8 @@ body {
   }
   
   .form button {
-      padding: 15px 30px;
-      font-size: 20px;
+      padding: 4% 10%;
+      font-size: 1.1em ;
       border: none;
       border-radius: 25px;
       background-color: orange;
@@ -906,7 +906,6 @@ body {
 }
 
 
-/* General Responsive Adjustments */
 @media (max-width: 768px) {
   /* Header */
   header {
